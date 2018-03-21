@@ -21,7 +21,6 @@ public class Lifter : MonoBehaviour {
     void Update () {
         float yNew = transform.position.y + direction * speed * Time.deltaTime;
         
-
         if (yNew >= yMax)
         {
             yNew = yMax;
