@@ -5,8 +5,8 @@ using UnityEngine;
 public class Lifter : MonoBehaviour {
 
     public  float   speed =     5.0f;
-    private float   yMax =      3.0f;
-    private float   yMin =      0.5f;    //starting position
+    private float   yMax =      9.0f;
+    private float   yMin =      3.5f;    //starting position
     private int     direction = 1;      //up to start
     private float   xSet;
     private float   zSet;
