@@ -37,9 +37,4 @@ public class TrackPadMover : MonoBehaviour {
             this.ballRigidbody.AddForce(movement * speed);
         }
     }
-
-    // Update is called once per frame
-    void Update () {
-		
-	}
 }

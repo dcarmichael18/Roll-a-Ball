@@ -6,9 +6,9 @@ public class Circler : MonoBehaviour
 {
 
     public float speed =        3.0f;
-    private float yMax =        9.5f;
-    private float yMin =        3.5f;   // starting position
-    public int direction =      1;      // up to start
+    private float yMax =        6.5f;
+    private float yMin =        0.5f;   // starting position
+    private int direction =     1;      // moving up to start
     private float rotation =    0f;
     public float position =     1f;     // where in the circle it starts
 
